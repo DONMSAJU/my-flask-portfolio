@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Don Maniyakkuparayil Saju - Portfolio">
+    <meta name="author" content="Don Maniyakkuparayil Saju">
+
+    <title>Don Maniyakkuparayil Saju - Portfolio</title>
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/gt_favicon.png') }}">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+    <!-- Icon font -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<body>
+
+<header id="header">
+    <div id="head" class="parallax" parallax-speed="1">
+        <h1 id="logo" class="text-center">
+            <img class="img-circle" src="{{ url_for('static', filename='images/myphoto.jpeg') }}" alt="Don Maniyakkuparayil Saju">
+            <span class="title">Don Maniyakkuparayil Saju</span>
+            <span class="tagline">Accounting Assistant | Data Analyst | AI Enthusiast</span>
+        </h1>
+    </div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#technical-skills">Technical Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#accomplishments">Accomplishments</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main id="main">
+    <div class="container">
+        <div class="row topspace">
+            <div class="col-sm-8 col-sm-offset-2">
+
+                <section id="about" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">About Me</h1>
+                    </header>
+                    <div class="entry-content">
+                        <p>I am Don Maniyakkuparayil Saju, a data-driven professional with expertise in accounting, data analysis, and artificial intelligence. My academic background includes postgraduate studies in Data Analytics and AI, alongside an MBA in Finance and Operations. With experience in accounting support, production operations, and data-driven problem solving, I bring strong analytical, financial, and operational insights to my work. I am passionate about leveraging technology and AI to optimize processes, enhance efficiency, and support informed decision-making.</p>
+                    </div>
+                </section>
+
+                <section id="technical-skills" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Technical Skills</h1>
+                    </header>
+                    <div class="entry-content">
+                        <ul class="technical-skills-list">
+                            <li><strong>MS Office:</strong> Data visualization, management, and interpretation</li>
+                            <li><strong>Tally:</strong> Invoicing, accounting, profit analysis, tax filing</li>
+                            <li><strong>SAP MM:</strong> Material purchasing, planning, and inventory control</li>
+                            <li><strong>Financial Analysis:</strong> Profit maximization, portfolio management, diversification</li>
+                            <li><strong>Tools:</strong> Tableau, Java, statistical methods and agents</li>
+                            <li><strong>Programming:</strong> Python</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="experience" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Experience</h1>
+                    </header>
+                    <div class="entry-content">
+                        <h3>SB Enterprises (2022–2023)</h3>
+                        <p>Accounting Assistant</p>
+                        <ul>
+                            <li>Provided accounting support to SME clients, ensuring accurate financial recordkeeping.</li>
+                            <li>Utilized Tally, SAP, Excel, and Tableau for data analysis and financial reporting.</li>
+                            <li>Generated client invoices using Tally and maintained billing accuracy.</li>
+                            <li>Conducted data collection and preprocessing for feasibility studies.</li>
+                        </ul>
+
+                        <h3>GMC Oshawa Assembly (2024–Present)</h3>
+                        <p>Production Operator, Paint Department</p>
+                    </div>
+                </section>
+
+                <section id="education" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Education</h1>
+                    </header>
+                    <div class="entry-content">
+                        <h3>Durham College (Ongoing)</h3>
+                        <p>Postgraduate Certificate – Artificial Intelligence Analysis, Design, and Implementation</p>
+
+                        <h3>Durham College (2024)</h3>
+                        <p>Postgraduate Certificate – Data Analytics for Business Decision Making</p>
+
+                        <h3>Marian College Kuttikkanam (2020–2022)</h3>
+                        <p>Master of Business Administration – Finance and Operations</p>
+                    </div>
+                </section>
+
+                <section id="certifications" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Certifications</h1>
+                    </header>
+                    <div class="entry-content">
+                        <ul>
+                            <li>SAP MM – Globally Certified</li>
+                            <li>Advanced Excel</li>
+                            <li>Financial Analysis</li>
+                            <li>Profile Management</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="accomplishments" class="post">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Accomplishments</h1>
+                    </header>
+                    <div class="entry-content">
+                        <ul>
+                            <li>Marketing Head of 'Origo', a national-level MBA event, leading strategic promotional campaigns to drive participation.</li>
+                            <li>Participated in inter-departmental competitions promoting quality and innovation.</li>
+                            <li>Won several medals in basketball; served as team captain for one year.</li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer id="footer" class="topspace">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 widget">
+                <h3 class="widget-title">Contact</h3>
+                <div class="widget-body">
+                    <p><a href="mailto:donmsaju@gmail.com">donmsaju@gmail.com</a><br>(+1) 226-966-6097</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 widget">
+                <h3 class="widget-title">Follow Me</h3>
+                <div class="widget-body">
+                    <p class="follow-me-icons">
+                        <a href="https://www.linkedin.com/in/donmsaju" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/donmsaju" target="_blank"><i class="fa fa-github"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<footer id="underfooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 widget">
+                <div class="widget-body">
+                    <p class="text-right">&copy; 2025 Don Maniyakkuparayil Saju. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
